@@ -1,35 +1,90 @@
-*{
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
-nav{
-    gap: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background-color: #023814;
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
 }
 
-a{
+header {
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+nav a {
     text-decoration: none;
-    color: #fff;
-    font-weight: bold;
 }
-section{
-    padding: 100px 20px;
+
+section {
     min-height: 100vh;
+    padding: 80px 10%;
 }
-#home{
+
+#home {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-ul{
+
+ul {
     list-style: none;
-    gap: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.hero-content{
+    max-width: 800px;
+}
+
+.hero-subtitle{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.hero-description{
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding: 10px;
+    
+}
+
+.hero-buttons a{
+    padding: 13px 20px;
+    text-decoration: none;
+    background-color: #007BFF;
+    border-radius: 30px;
+    color: #fff;
+}
+
+.hero-buttons a:hover{
+    background-color: #0056b3;
+}
+
+.about-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    max-width: 1000px;
+    margin: 0 auto;
 }
