@@ -1,233 +1,382 @@
 <!doctype html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>@zamdv</title>
-        <link rel="stylesheet" href="css/style.css" />
-    </head>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <body>
-        <header>
-            <nav>
-                <a href="">Home</a>
-                <a href="">About</a>
-                <a href="">Skills</a>
-                <a href="">Projects</a>
-                <a href="">Contact</a>
-            </nav>
-        </header>
+    <title>@zamdv | Portfolio</title>
 
-        <main>
-            <section id="home">
-                <div class="hero-content">
-                    <div class="hero-title">
-                        <h1>Hello, I'm Nizam</h1>
-                        <p>Web Developer | Frontend Enthusiast | Tech Lover</p>
-                    </div>
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://fonts.cdnfonts.com/css/segoe-ui" rel="stylesheet" />
+  </head>
 
-                    <div class="hero-banner">
-                        <img src="images/nizam banner.png" alt="banner" />
-                    </div>
+  <body>
+    <!-- =========================
+         NAVBAR
+    ========================== -->
 
-                    <br />
-                    <hr />
-                    <br />
+    <header>
+      <nav>
+        <a href="#home" class="logo">@zamdv</a>
 
-                    <h2 class="hero-subtitle">Welcome to My Portfolio</h2>
+        <div class="nav-links">
+          <a class="nav-home" href="#home">Home</a>
+          <a class="nav-about" href="#about">About</a>
+          <a class="nav-skills" href="#skills">Skills</a>
+          <a class="nav-projects" href="#projects">Projects</a>
+          <a class="nav-contact" href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
 
-                    <p class="hero-description">
-                        Hello, I'm Nizam, a web developer passionate about creating
-                        beautiful and functional websites.
-                    </p>
+    <main>
+      <!-- =========================
+           HOME
+      ========================== -->
 
-                    <div class="hero-buttons">
-                        <a href="#projects" class="btn">View My Projects</a>
-                    </div>
-                </div>
-            </section>
+      <section id="home">
+        <div class="hero-content">
+          <div class="hero-title">
+            <p class="hero-greeting">Hello, I'm</p>
 
-            <section id="about">
-                <div class="about-content">
-                    <h2 class="about-subtitle">Siapa Saya?</h2>
+            <h1>Nizam Miftakhul Ramadhan</h1>
 
-                    <p>
-                        I am a web developer with experience in HTML, CSS, JavaScript,
-                        and various frameworks. I enjoy building responsive and
-                        user-friendly web applications.
-                    </p>
+            <p class="hero-role">
+              Web Developer | Frontend Enthusiast | Tech Lover
+            </p>
+          </div>
 
-                    <h2 class="about-subtitle">Informasi Pribadi</h2>
+          <div class="hero-banner">
+            <img
+              src="assets/images/nizam banner.png"
+              alt="Nizam Portfolio Banner"
+            />
+          </div>
 
-                    <div class="about-info">
-                        <p>
-                            <strong>Nizam Miftakhul Ramadhan</strong>
-                        </p>
+          <div class="hero-intro">
+            <h2>Welcome to My Portfolio</h2>
 
-                        <p>
-                            <strong>Jember, Indonesia</strong>
-                        </p>
+            <p>
+              Saya adalah siswa RPL yang tertarik pada pengembangan website,
+              frontend development, dan teknologi. Saya terus belajar dan
+              mengembangkan kemampuan melalui berbagai project.
+            </p>
 
-                        <p>
-                            <strong>miftakhulnizamramadhan@gmail.com</strong>
-                        </p>
-                    </div>
-                </div>
-            </section>
+            <div class="hero-buttons">
+              <a href="#projects" class="btn"> View My Projects </a>
 
-            <section id="skills">
-                <div class="skills-content">
-                    <div class="skills-header">
-                        <h1>Here are some of my skills:</h1>
-                    </div>
+              <a href="#contact" class="btn btn-outline"> Contact Me </a>
+            </div>
 
-                    <div class="skills-list">
-                        <div class="skill-item">
-                            <h3>HTML</h3>
-                            <p>
-                                Proficient in creating structured and semantic web pages.
-                            </p>
-                        </div>
+            <div class="title-laptop">
+              <h1>Laptop Kesayangan</h1>
+            </div>
 
-                        <div class="skill-item">
-                            <h3>CSS</h3>
-                            <p>
-                                Experienced in styling web pages with CSS and responsive
-                                design.
-                            </p>
-                        </div>
+            <div class="hero-laptop">
+              <img
+                class="img-laptop"
+                src="assets/images/laptop hp.jpg"
+                alt=""
+              />
+              <p class="description-laptop">
+                Saya menggunakan HP EliteBook 845 G8 sebagai perangkat utama
+                untuk pengembangan website dan pembelajaran RPL. Dengan Ryzen 5
+                PRO 5650U dan Radeon Vega 7, laptop ini cukup mendukung
+                aktivitas coding, web development, database, hingga menjalankan
+                berbagai development tools.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
 
-                        <div class="skill-item">
-                            <h3>JavaScript</h3>
-                            <p>
-                                Skilled in adding interactivity and dynamic behavior to
-                                websites.
-                            </p>
-                        </div>
+      <hr />
 
-                        <div class="skill-item">
-                            <h3>React</h3>
-                            <p>
-                                Familiar with building user interfaces using React
-                                framework.
-                            </p>
-                        </div>
+      <!-- =========================
+           ABOUT
+      ========================== -->
 
-                        <div class="skill-item">
-                            <h3>Github</h3>
-                            <p>
-                                Familiar with version control and collaborative
-                                development.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </section>
+      <section id="about">
+        <div class="about-content">
+          <div class="about-description">
+            <p class="section-subtitle">About Me</p>
 
-            <section id="projects">
-                <div class="projects-content">
-                    <div class="projects-header">
-                        <h2>Project Saya</h2>
-                        <p class="section-subtitle">My Projects</p>
-                    </div>
+            <h2>Siapa Saya?</h2>
 
-                    <div class="projects-list">
-                        <div class="project-item">
-                            <h3>Portfolio Website</h3>
+            <p>
+              Saya adalah siswa Rekayasa Perangkat Lunak yang tertarik dengan
+              pengembangan website dan teknologi. Saya sedang mengembangkan
+              kemampuan dalam frontend, backend, dan berbagai teknologi web.
+            </p>
+          </div>
 
-                            <p>
-                                Website portfolio pribadi yang dibuat menggunakan HTML
-                                dan CSS.
-                            </p>
+          <div class="about-info">
+            <p class="section-subtitle">Informasi Pribadi</p>
 
-                            <a href="https://github.com/zamdv/portofolio">
-                                Lihat Project
-                            </a>
-                        </div>
+            <div class="info-item">
+              <span>Nama</span>
+              <strong>Nizam Miftakhul Ramadhan</strong>
+            </div>
 
-                        <div class="project-item">
-                            <h3>Coming Soon</h3>
+            <div class="info-item">
+              <span>Lokasi</span>
+              <strong>Jember, Indonesia</strong>
+            </div>
 
-                            <p>
-                                Project selanjutnya sedang dalam proses pengembangan.
-                            </p>
+            <div class="info-item">
+              <span>Email</span>
+              <strong>miftakhulnizamramadhan@gmail.com</strong>
+            </div>
+          </div>
+        </div>
+      </section>
 
-                            <a href="https://github.com/zamdv/portofolio">
-                                Lihat Project
-                            </a>
-                        </div>
+      <!-- =========================
+           SKILLS
+      ========================== -->
 
-                        <div class="project-item">
-                            <h3>Coming Soon</h3>
+      <section id="skills">
+        <div class="skills-content">
+          <div class="skills-header">
+            <p class="section-subtitle">Skills</p>
 
-                            <p>
-                                Project baru akan ditambahkan setelah selesai dibuat.
-                            </p>
+            <h2>Teknologi yang Saya Pelajari</h2>
 
-                            <a
-                                href="https://github.com/zamdv/portofolio"
-                                target="_blank"
-                            >
-                                Lihat Project
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </section>
+            <p>
+              Beberapa teknologi yang sedang saya gunakan dan pelajari dalam
+              pengembangan website.
+            </p>
+          </div>
 
-            <section id="contact">
-                <div class="contact-content">
-                    <div class="contact-header">
-                        <p class="section-subtitle">Contact</p>
+          <div class="skills-list">
+            <div class="skill-item">
+              <h3>HTML</h3>
 
-                        <h2>Hubungi Saya</h2>
+              <p>
+                Membuat struktur halaman website menggunakan HTML yang
+                terstruktur dan semantik.
+              </p>
+            </div>
 
-                        <p>
-                            Jika ingin menghubungi saya, silakan kirim pesan melalui
-                            form di bawah ini.
-                        </p>
-                    </div>
+            <div class="skill-item">
+              <h3>CSS</h3>
 
-                    <form class="contact-form">
-                        <div class="form-group">
-                            <label for="name">Nama</label>
+              <p>
+                Membuat tampilan website yang menarik, responsive, dan nyaman
+                digunakan.
+              </p>
+            </div>
 
-                            <input
-                                type="text"
-                                id="name"
-                                placeholder="Masukkan nama"
-                            />
-                        </div>
+            <div class="skill-item">
+              <h3>JavaScript</h3>
 
-                        <div class="form-group">
-                            <label for="email">Email</label>
+              <p>
+                Membuat interaksi dan fitur dinamis pada website menggunakan
+                JavaScript.
+              </p>
+            </div>
 
-                            <input
-                                type="email"
-                                id="email"
-                                placeholder="Masukkan email"
-                            />
-                        </div>
+            <div class="skill-item">
+              <h3>PHP</h3>
 
-                        <div class="form-group">
-                            <label for="message">Pesan</label>
+              <p>
+                Mengembangkan aplikasi web dengan PHP untuk kebutuhan backend.
+              </p>
+            </div>
 
-                            <textarea
-                                id="message"
-                                placeholder="Tulis pesan"
-                            ></textarea>
-                        </div>
+            <div class="skill-item">
+              <h3>MySQL</h3>
 
-                        <button type="submit">Kirim Pesan</button>
-                    </form>
-                </div>
-            </section>
-        </main>
+              <p>Mengelola database dan data aplikasi menggunakan MySQL.</p>
+            </div>
 
-        <footer>
-            <p>&copy; 2024 Nizam. All rights reserved.</p>
-        </footer>
+            <div class="skill-item">
+              <h3>Laravel</h3>
 
-        <script src="js/script.js"></script>
-    </body>
+              <p>
+                Sedang mempelajari framework Laravel untuk membangun aplikasi
+                web berbasis PHP.
+              </p>
+            </div>
+
+            <div class="skill-item">
+              <h3>React</h3>
+
+              <p>
+                Sedang mempelajari React untuk membangun user interface yang
+                interaktif.
+              </p>
+            </div>
+
+            <div class="skill-item">
+              <h3>GitHub</h3>
+
+              <p>
+                Menggunakan GitHub untuk menyimpan, mengelola, dan membagikan
+                project.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================
+           PROJECTS
+      ========================== -->
+
+      <section id="projects">
+        <div class="projects-content">
+          <div class="projects-header">
+            <p class="section-subtitle">Projects</p>
+
+            <h2>Project Saya</h2>
+
+            <p>
+              Beberapa project yang telah saya buat selama belajar pengembangan
+              website.
+            </p>
+          </div>
+
+          <div class="projects-list">
+            <div class="project-item">
+              <div class="project-number">01</div>
+
+              <h3>Portfolio Website</h3>
+
+              <p>
+                Website portfolio pribadi yang dibuat menggunakan HTML dan CSS
+                untuk menampilkan profil, skill, dan project.
+              </p>
+
+              <div class="project-tech">
+                <span>HTML</span>
+                <span>CSS</span>
+              </div>
+
+              <a
+                href="https://github.com/zamdv/portofolio"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Lihat Project →
+              </a>
+            </div>
+
+            <div class="project-item">
+              <div class="project-number">02</div>
+
+              <h3>PHP CRUD</h3>
+
+              <p>
+                Project CRUD sederhana menggunakan PHP dan MySQL untuk mengelola
+                data pada database.
+              </p>
+
+              <div class="project-tech">
+                <span>PHP</span>
+                <span>MySQL</span>
+              </div>
+
+              <a href="#"> Coming Soon → </a>
+            </div>
+
+            <div class="project-item">
+              <div class="project-number">03</div>
+
+              <h3>Laravel Project</h3>
+
+              <p>
+                Project aplikasi web menggunakan Laravel yang sedang saya
+                kembangkan sebagai latihan backend.
+              </p>
+
+              <div class="project-tech">
+                <span>Laravel</span>
+                <span>PHP</span>
+              </div>
+
+              <a href="#"> Coming Soon → </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================
+           CONTACT
+      ========================== -->
+
+      <section id="contact">
+        <div class="contact-content">
+          <div class="contact-header">
+            <p class="section-subtitle">Contact</p>
+
+            <h2>Hubungi Saya</h2>
+
+            <p>
+              Jika ingin menghubungi saya, silakan gunakan email atau kirim
+              pesan melalui form di bawah ini.
+            </p>
+          </div>
+
+          <form class="contact-form">
+            <div class="form-group">
+              <label for="name"> Nama </label>
+
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Masukkan nama"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="email"> Email </label>
+
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Masukkan email"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="message"> Pesan </label>
+
+              <textarea
+                id="message"
+                name="message"
+                placeholder="Tulis pesan"
+              ></textarea>
+            </div>
+
+            <button type="submit">Kirim Pesan</button>
+          </form>
+
+          <div class="contact-links">
+            <a href="mailto:miftakhulnizamramadhan@gmail.com"> Email </a>
+
+            <a
+              href="https://github.com/zamdv"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer>
+      <p>&copy; 2026 Nizam. All rights reserved.</p>
+    </footer>
+
+    <script src="js/js.js"></script>
+  </body>
 </html>
