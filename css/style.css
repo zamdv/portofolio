@@ -185,12 +185,12 @@ nav {
     max-width: 1100px;
     margin: 35px auto;
     padding: 30px;
-    background-color: #accf4c;
+    background-color: #14d62b;
     border-radius: 15px;
 }
 
 .description-laptop {
-    color: #c1d776;
+    color: #84d3ad;
     line-height: 1.7;
 }
 
@@ -274,7 +274,7 @@ hr {
 /* SKILLS */
 
 #skills {
-    background: #8f6e6e;
+    background: #54037d;
 }
 
 .skills-content,
@@ -330,7 +330,7 @@ hr {
 /* PROJECTS */
 
 #projects {
-    background: #c5b5b5;
+    background: #118ec3;
 }
 
 .projects-list {
@@ -350,7 +350,7 @@ hr {
 
 .project-tech {
     display: flex;
-    gap: 8px;
+    gap: 13px;
     margin: 20px 0;
 }
 
@@ -366,7 +366,21 @@ hr {
 .contact-links a {
     color: #007bff;
     font-weight: bold;
+
 }
+.project-btn1{
+     display: flex;
+     gap: 13px;
+
+}
+
+
+
+   
+
+
+
+
 
 
 /* CONTACT */
